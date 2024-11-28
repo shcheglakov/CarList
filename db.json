@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "brand": "Audi",
+    "model": "A1",
+    "price": 10000,
+    "city": "Москва",
+    "image_url": "//avatars.mds.yandex.net/get-autoru-vos/4361593/6ff37210d2a95ed664a340ef0b3a13f3/1200x900" 
+  },
+  {
+    "id": 2,
+    "brand": "BMW",
+    "model": "X7",
+    "price": 5000,
+    "city": "Сочи",
+    "image_url": "//avatars.mds.yandex.net/get-autoru-vos/2144487/449b71b17c65c001dd0fa6137883ae67/1200x900"
+  },
+  {
+    "id": 3,
+    "brand": "Mercedes",
+    "model": "GLS",
+    "price": 20000,
+    "city": "Казань",
+    "image_url": "//avatars.mds.yandex.net/get-autoru-vos/2153865/80b7f1926d03b6d69b440f4488ce9a2f/1200x900"
+  },
+  {
+    "id": 4,
+    "brand": "Mercedes",
+    "model": "SLS AMG",
+    "price": 100000,
+    "city": "Санкт-Петербург",
+    "image_url": "//photo.auto.ru/photo/get-autoru-vos/4466296/1OI45AiUQ2IGvZCbdr6dQtYVURDNzu7yeoi0CxvVolVQhIwWZlkYECcpvwajt0Roej3ieR2dsQX8RDTz47NtEH6c1Va5hzwZMEE95zdy2H9AOC6X5aSYkISd43Y7ewYwYKZ8w_d72yD-VDKDn7KZ8qs8hsskBa4UI4qDEk7aWO15FWk/1200x900"
+  }
+]

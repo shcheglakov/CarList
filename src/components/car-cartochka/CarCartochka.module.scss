@@ -1,0 +1,18 @@
+.card {
+    margin: 10px;
+    min-height: 350px;
+    min-width: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    .content {
+      position: relative;
+      z-index: 1;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.95);
+    }
+  }
