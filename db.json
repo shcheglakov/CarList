@@ -1,34 +1,22 @@
 [
-  {
-    "id": 1,
-    "brand": "Audi",
-    "model": "A1",
-    "price": 10000,
-    "city": "Москва",
-    "image_url": "//avatars.mds.yandex.net/get-autoru-vos/4361593/6ff37210d2a95ed664a340ef0b3a13f3/1200x900" 
-  },
-  {
-    "id": 2,
-    "brand": "BMW",
-    "model": "X7",
-    "price": 5000,
-    "city": "Сочи",
-    "image_url": "//avatars.mds.yandex.net/get-autoru-vos/2144487/449b71b17c65c001dd0fa6137883ae67/1200x900"
-  },
-  {
-    "id": 3,
-    "brand": "Mercedes",
-    "model": "GLS",
-    "price": 20000,
-    "city": "Казань",
-    "image_url": "//avatars.mds.yandex.net/get-autoru-vos/2153865/80b7f1926d03b6d69b440f4488ce9a2f/1200x900"
-  },
-  {
-    "id": 4,
-    "brand": "Mercedes",
-    "model": "SLS AMG",
-    "price": 100000,
-    "city": "Санкт-Петербург",
-    "image_url": "//photo.auto.ru/photo/get-autoru-vos/4466296/1OI45AiUQ2IGvZCbdr6dQtYVURDNzu7yeoi0CxvVolVQhIwWZlkYECcpvwajt0Roej3ieR2dsQX8RDTz47NtEH6c1Va5hzwZMEE95zdy2H9AOC6X5aSYkISd43Y7ewYwYKZ8w_d72yD-VDKDn7KZ8qs8hsskBa4UI4qDEk7aWO15FWk/1200x900"
-  }
+  { "id": 1, "brand": "Audi", "model": "A1", "price": 10000, "city": "Москва", "image_url": "//avatars.mds.yandex.net/get-autoru-vos/4361593/6ff37210d2a95ed664a340ef0b3a13f3/1200x900" },
+  { "id": 2, "brand": "BMW", "model": "X7", "price": 5000, "city": "Сочи", "image_url": "//avatars.mds.yandex.net/get-autoru-vos/2144487/449b71b17c65c001dd0fa6137883ae67/1200x900" },
+  { "id": 3, "brand": "Mercedes", "model": "GLS", "price": 20000, "city": "Казань", "image_url": "//avatars.mds.yandex.net/get-autoru-vos/2153865/80b7f1926d03b6d69b440f4488ce9a2f/1200x900" },
+  { "id": 4, "brand": "Mercedes", "model": "SLS AMG", "price": 100000, "city": "Санкт-Петербург", "image_url": "//photo.auto.ru/photo/get-autoru-vos/4466296/1OI45AiUQ2IGvZCbdr6dQtYVURDNzu7yeoi0CxvVolVQhIwWZlkYECcpvwajt0Roej3ieR2dsQX8RDTz47NtEH6c1Va5hzwZMEE95zdy2H9AOC6X5aSYkISd43Y7ewYwYKZ8w_d72yD-VDKDn7KZ8qs8hsskBa4UI4qDEk7aWO15FWk/1200x900"},
+  { "id": 5, "brand": "Toyota", "model": "Camry", "price": 15000, "city": "Москва", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1SARp012hfYq60KjgxolC-rBsjUA2_25R05VqG_cFFX5jyi8j5ybyIeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80" },
+  { "id": 6, "brand": "Honda", "model": "CRV", "price": 12000, "city": "Екатеринбург", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1SBRZAx3RHYq61Z1F47xS2nUpKBB2v15R85BPO6d1VXsWmuo2t0OSMeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80"},
+  { "id": 7, "brand": "Ford", "model": "Focus", "price": 8000, "city": "Новосибирск", "image_url": "https://photo.auto.ru/photo/get-autoru-vos/1551055/37xgyDSaEZg4TnzBmIvrxK9Z3ZJfaoiS5zT6ZNuKGAHUGU10EJzdJT9wpGYHVZvDnd08W_OL9ONd98vqs8UfiphoFJ1-1ZQOGKqYCSbQFcO8LrP8Z_KItYCkHvoPrW1si1tDhpszkH4WsPqOSL-pStt6KXZ_-d3hqrKvldCgUTxLnfE/832x624" },
+  { "id": 8, "brand": "Nissan", "model": "Altima", "price": 11000, "city": "Ростов-на-Дону", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1SARpE33hLYrfgP1V07wiz1A8DWBz3y5xg9Ba7scwNQtzz_oGgjanMeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80" },
+  { "id": 9, "brand": "Kia", "model": "Sportage", "price": 13000, "city": "Краснодар", "image_url": "https://avatars.mds.yandex.net/get-autoru-vos/2157719/5857a74e83caa0e09654fcd8dd8da4a0/832x624" },
+  { "id": 10, "brand": "Hyundai", "model": "Tucson", "price": 14000, "city": "Челябинск", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1SARp0x3BvYrasI3gs-lyvwApPUAD314k86C6-_IwVQ62r_pj53PCMeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80" },
+  { "id": 11, "brand": "Volkswagen", "model": "Passat", "price": 16000, "city": "Омск", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1SARp432BrYr_hY1F4ylCqnA8DXAGyjsxtjCvK5JAdb5T-oozl2aCEeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80" },
+  { "id": 12, "brand": "Skoda", "model": "Octavia", "price": 12500, "city": "Самара", "image_url": "https://avatars.mds.yandex.net/get-autoru-vos/5156061/020756ed27e297db9c6448875d83a3fe/832x624" },
+  { "id": 13, "brand": "Renault", "model": "Duster", "price": 9000, "city": "Уфа", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1eEQJEy0RfYrfcK3gw5k33yAMKGAmHxsxg_VPfueQQG5D76pz0iPiIeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80" },
+  { "id": 14, "brand": "Mazda", "model": "CX-5", "price": 18000, "city": "Пермь", "image_url": "https://avatars.mds.yandex.net/get-autoru-vos/1707651/591f5884c25cdf6cbc8872f2fb9c254f/832x624" },
+  { "id": 15, "brand": "Subaru", "model": "Forester", "price": 17000, "city": "Волгоград", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1KCRJsy0BLYq_tU3AVswySrDpPVUGmj4ElvVK-6eQYB4mqvoW8hNCQeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80" },
+  { "id": 16, "brand": "Mitsubishi", "model": "Outlander", "price": 14500, "city": "Нижний Новгород", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1eJRJkx2xvY_qtdighrkCuiBJTQBGymsBVvBKLtcFdS5jT_oG90aSMeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80" },
+  { "id": 17, "brand": "Suzuki", "model": "Vitara", "price": 10500, "city": "Казань", "image_url": "https://avatars.mds.yandex.net/get-autoru-vos/4612068/0188991b1b57438872f46b47e138f6fd/832x624" },
+  { "id": 18, "brand": "Volvo", "model": "XC60", "price": 22000, "city": "Москва", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1SAR5w93xvY-Kxf3QgzlyjxVMOEB2n2sh9tUaW4cgJV4Dmq8Gh4b3MeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80" },
+  { "id": 19, "brand": "Lexus", "model": "RX", "price": 25000, "city": "Санкт-Петербург", "image_url": "https://avatars.mds.yandex.net/get-autoru-vos/2069528/0648a5efad53906f137311f6672dad0d/832x624" },
+  { "id": 20, "brand": "Infiniti", "model": "QX50", "price": 19000, "city": "Сочи", "image_url": "https://yastatic.net/naydex/autoru/yX25EW563/aaadc4A3RT4O/40UhGgIvbwem51Jl9Dbyg3D85mKZXz7cS5yPfmjPM3HJhPj1SARJ0y3BHYrfwP2Ak-zSX3UJXRAWr3thRuAfK3dQtQ52_99jx5NSUeHzliYVeZJlmt19irh_LRwLnPVAuCSM9Iwwb3W8hboNiWAaJEaa9mxV2Aj3Ud9dBLE0XEyyN6Kr1pwvVNOUgyXV1-KVcE0mdFu93fnq3b7NuyzGIkkFfqIfY40WelSZL8nwmnSFqcUeRuu6d_HPzfaRlTw80" }
 ]

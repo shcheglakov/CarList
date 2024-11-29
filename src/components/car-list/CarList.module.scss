@@ -1,6 +1,6 @@
 .cars_list_main_block {
     display: flex;
     flex-wrap: wrap;
-    width: 100vh;
+    justify-content: space-between;
     height: auto;
 }

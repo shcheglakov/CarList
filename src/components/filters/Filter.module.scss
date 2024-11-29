@@ -1,3 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header_filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .dropdown_main_block {
     display: flex;
     justify-content: space-between;
