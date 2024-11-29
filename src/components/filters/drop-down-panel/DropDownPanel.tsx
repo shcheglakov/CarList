@@ -1,10 +1,13 @@
-import { useState } from "react"
+import { useState, useRef, useEffect } from "react"
 import { IDropDownPanel } from "./DropDownPanel-Types"
 import styles from "./DropDownPanel.module.scss"
 
 const DropDownPanel = ({ title, options, onSelect }: IDropDownPanel) => {
     const [isOpen, setIsOpen] = useState(false)
     const [selectedOption, setSelectedOption] = useState('');
+    const buttonRef = useRef<HTMLButtonElement>(null);
+    const [buttonWidth, setButtonWidth] = useState(0);
+
 
     const toggleDropDown = () => {
         setIsOpen(!isOpen);
@@ -15,13 +18,21 @@ const DropDownPanel = ({ title, options, onSelect }: IDropDownPanel) => {
         onSelect(option);
         setIsOpen(false);
     };
+
+    useEffect(() => {
+        if (buttonRef.current) {
+          const rect = buttonRef.current.getBoundingClientRect();
+          setButtonWidth(rect.width);
+        }
+      }, [isOpen]);
+
   return (
-    <div className={styles.dropdown_block} style={isOpen ? {backgroundColor: "#1a1a1a"}: {backgroundColor: ""}}>
-      <button onClick={toggleDropDown}>
+    <div className={styles.dropdown_block} style={{ backgroundColor: isOpen ? "white" : "", width: buttonWidth, borderRadius: isOpen ? "0px" : "", borderTopLeftRadius: isOpen ? "16px" : "", borderTopRightRadius: isOpen ? "16px" : "" }}>
+      <button ref={buttonRef} onClick={toggleDropDown}>
         {selectedOption || title}
       </button>
       {isOpen && (
-        <ul>
+        <ul style={{width: buttonWidth}}>
           <li onClick={() => handleOptionClick('')}>
             ✖ 
           </li>

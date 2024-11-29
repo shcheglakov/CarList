@@ -1,18 +1,24 @@
 .input_container {
     border: 1px solid white;
-    border-radius: 16px;
+    border-radius: 8px;
     flex: 1;
     display: flex;
     justify-content: space-around;
-
+    background-color: #ffffff;
+    margin-right: 20px;
+    padding: 3px;
     img {
-
+        
     }
 
     input {
         width: 95%;
         padding: 0;
         border: 0;
-        background-color: #242424;
+        background-color: #ffffff;
+        outline: none;
+        color: #000;
+        border-radius: 8px;
+        font-size: 18px;
     }
 }

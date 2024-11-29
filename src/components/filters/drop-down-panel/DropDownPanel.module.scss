@@ -6,8 +6,13 @@
         align-items: center;
         list-style-type: none;
         padding: 0;
+        position: absolute;
+        background-color: white;
+        z-index: 10;
         >li {
             cursor: pointer;
+            padding: 5px;
+            color: rgb(0, 0, 0);
         }
     }
 }

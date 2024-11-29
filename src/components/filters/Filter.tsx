@@ -20,6 +20,7 @@ export function Filter() {
   const [selectedModel, setSelectedModel] = useState<string | null>(null);
   const [selectedCity, setSelectedCity] = useState<string | null>(null);
   const [selectedPriceRange, setSelectedPriceRange] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const handleBrandSelect = (brand: string) => {
     setSelectedBrand(brand);
@@ -37,6 +38,10 @@ export function Filter() {
     setSelectedPriceRange(priceRange);
   };
 
+  const handleSearch = (query: string) => {
+    setSearchQuery(query);
+  };
+
   const filteredData = data?.filter((car: ICars) => {
     if (selectedBrand && !car.brand.includes(selectedBrand)) return false;
     if (selectedModel && !car.model.includes(selectedModel)) return false;
@@ -45,6 +50,9 @@ export function Filter() {
       const [min, max] = selectedPriceRange.split('-').map(Number);
       if (car.price < min || car.price > max) return false;
     }
+
+    if (searchQuery && !car.brand.toLowerCase().includes(searchQuery.toLowerCase()) && !car.model.toLowerCase().includes(searchQuery.toLowerCase()) && !car.city.toLowerCase().includes(searchQuery.toLowerCase())) return false;
+
     return true;
   });
 
@@ -52,7 +60,7 @@ export function Filter() {
     <div className={styles.main}>
       <CarList data={filteredData || []} />
       <div className={styles.header_filter}>
-        <Search />
+        <Search onSearch={handleSearch}/>
         <div className={styles.dropdown_main_block}>
           <DropDownPanel title="Марка" options={brands} onSelect={handleBrandSelect} />
           <DropDownPanel title="Модель" options={models} onSelect={handleModelSelect} />

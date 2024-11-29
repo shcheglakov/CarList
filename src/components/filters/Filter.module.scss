@@ -3,6 +3,7 @@
     flex-direction: column-reverse;
     padding-left: 50px;
     padding-right: 50px;
+    flex: 1;
 }
 
 .header_filter {
@@ -17,4 +18,5 @@
 .dropdown_main_block {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
