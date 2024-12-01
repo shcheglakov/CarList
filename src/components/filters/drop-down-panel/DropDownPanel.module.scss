@@ -1,5 +1,9 @@
 .dropdown_block{
     border-radius: 8px;
+    >button {
+        white-space: nowrap;
+    }
+
     >ul{
         display: flex;
         flex-direction: column;
@@ -9,6 +13,7 @@
         position: absolute;
         background-color: white;
         z-index: 10;
+        margin-top: 0;
         >li {
             cursor: pointer;
             padding: 5px;

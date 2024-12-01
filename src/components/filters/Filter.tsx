@@ -4,8 +4,9 @@ import { CarList } from "../car-list/CarList";
 import DropDownPanel from "./drop-down-panel/DropDownPanel";
 import { carsService } from "../../services/cars.services";
 import { ICars } from "../../pages/types";
-import styles from "./Filter.module.scss"
+import styles from "./Filter.module.scss";
 import Search from "../search/Search";
+
 export function Filter() {
   const { data } = useQuery({
     queryKey: ['cars list'],

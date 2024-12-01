@@ -1,4 +1,4 @@
-import { SearchProps } from './Search';
+import { SearchProps } from './SearchProps';
 import styles from './Search.module.scss';
 import { useState } from 'react';
 

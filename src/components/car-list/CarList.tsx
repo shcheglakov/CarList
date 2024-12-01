@@ -6,7 +6,7 @@ export function CarList({data}:{data: ICars[]}) {
   if (!data || data.length === 0) {
     return (
       <div className={styles.cars_list_main_block}>
-        No data available
+        Ничего не найдено
       </div>
     );
   }
